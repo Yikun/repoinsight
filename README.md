@@ -13,6 +13,11 @@ pip install -e .
 
 - **Repo Commit Insights**: `repoinsight commits apache/spark --since 2021-01-01`
 
+- **Repo Review Insights**: `repoinsight review apache/spark --since 2021-01-01`
+
+# Example
+
+### 1. Repo commits insights on Spark project since 2021-01-01
 ``` Shell
 $ git clone git@github.com:apache/spark.git
 $ git clone git@github.com:apache/spark-website.git
@@ -50,7 +55,8 @@ $ repoinsight commits apache/spark --since 2021-01-01
 # ... ...
 ```
 
-- **Repo Review Insights**: `repoinsight review apache/spark --since 2021-01-01`
+
+### 2. Repo Review Insights on Spark project since 2021-01-01
 
 ``` Shell
 $ repoinsight review apache/spark --since 2021-01-01
