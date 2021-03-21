@@ -1,0 +1,4 @@
+click
+gitpython
+PyGithub
+pbr>=1.3
